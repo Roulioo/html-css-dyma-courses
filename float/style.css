@@ -1,0 +1,23 @@
+.float2 {
+  float: right;
+}
+
+.float3 {
+  float: left;
+  clear: right;
+}
+
+.float4 {
+  float: right;
+  clear: left;
+}
+
+.float5 {
+  float: left;
+  clear: right;
+}
+
+.float6 {
+  float: right;
+  clear: left;
+}

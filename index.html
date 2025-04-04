@@ -1,117 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Dyma</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Dyma</h1>
-
-		<fieldset>
-			<legend>Ol tag</legend>
-			<ol start="3" reversed type="i">
-				<li>trois</li>
-				<li>quatre</li>
-				<li>cinq</li>
-				<li>six</li>
-			</ol>
-		</fieldset>
-
-		<p></p>
-
-		<!-- ul>li*6 => generate ul and 6 li -->
-
-		<fieldset>
-			<legend>Meter tag</legend>
-			<label for="fuel">Fuel level:</label>
-			<meter
-				id="fuel"
-				min="0"
-				max="100"
-				low="33"
-				high="66"
-				optimum="80"
-				value="20"
-			>
-				at 20/100
-			</meter>
-		</fieldset>
-
-		<p></p>
-
-		<fieldset>
-			<legend>Progress tag</legend>
-			<label for="file">File progress:</label>
-			<progress id="file" max="100" value="70">70%</progress>
-		</fieldset>
-
-		<hr />
-
-		<article>
-			<p>
-				Le film de David Fincher <cite>Fight Club</cite> est sorti en salles en
-				1999.
-			</p>
-			<aside>
-				<p>
-					Le film a gagné 100 millions de dollars pendant sa sortie initiale.
-				</p>
-			</aside>
-			<p>
-				Fight Club est un film américain de David Fincher, sorti en 1999 et
-				adapté du roman éponyme de Chuck Palahniuk (publié en 1996). Le
-				narrateur du film est un homme qui trouve peu de satisfaction dans son
-				emploi et sa vie en général et crée avec l'énigmatique Tyler Durden,
-				personnage anticonformiste, un club de combats clandestins qui permet à
-				ses membres d'évacuer leur mal-être par la violence. Le film a pour
-				interprètes principaux Edward Norton, Brad Pitt et Helena Bonham Carter.
-			</p>
-		</article>
-
-		<hr />
-
-		<p>
-			Linux est sorti initialement le
-			<time datetime="1991-09-17">17 septembre 1991</time>.
-		</p>
-
-		<hr />
-
-		<div class="shortcut"></div>
-
-		<hr />
-
-		<div class="border">Border element</div>
-
-		<hr />
-
-		<!-- p.border$*10 -->
-		<!-- <p class="border1"></p>
-    <p class="border2"></p>
-    <p class="border3"></p>
-    <p class="border4"></p>
-    <p class="border5"></p>
-    <p class="border6"></p>
-    <p class="border7"></p>
-    <p class="border8"></p>
-    <p class="border9"></p>
-    <p class="border10"></p> -->
-
-		<!-- p.border$@-*10 -->
-		<!-- <p class="border10"></p>
-    <p class="border9"></p>
-    <p class="border8"></p>
-    <p class="border7"></p>
-    <p class="border6"></p>
-    <p class="border5"></p>
-    <p class="border4"></p>
-    <p class="border3"></p>
-    <p class="border2"></p>
-    <p class="border1"></p> -->
-
-		<div class="box1"></div>
-		<div class="box2"></div>
+		<div style="display: flex; flex-direction: column; gap: 10px">
+			<a href="fieldset/index.html" target="_self">Fieldsets</a>
+			<a href="article/index.html" target="_self">Article</a>
+			<a href="datetime/index.html" target="_self">Datetime</a>
+			<a href="shortcut/index.html" target="_self">Shortcut</a>
+			<a href="border/index.html" target="_self">Border</a>
+			<a href="box/index.html" target="_self">Box</a>
+			<a href="float/index.html" target="_self">Float</a>
+		</div>
 	</body>
 </html>

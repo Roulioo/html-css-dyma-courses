@@ -1,0 +1,5 @@
+.border {
+  padding: 10px;
+  border: thick solid black;
+  /* medium | thin | thick */
+}
