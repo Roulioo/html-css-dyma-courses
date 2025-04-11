@@ -1,0 +1,39 @@
+body {
+  margin: 20px;
+}
+
+.container {
+  border: 2px solid black;
+  width: 500px;
+  /* height: 500px; */
+  position: relative;
+  height: 1200px;
+}
+
+.block1 {
+  padding: 10px;
+  border: 1px solid blue;
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  top: 200px;
+  left: 100px;
+}
+
+.block2 {
+  padding: 10px;
+  border: 1px solid green;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 10px;
+}
+
+.block3 {
+  padding: 10px;
+  border: 1px solid brown;
+  height: 30px;
+  width: 30px;
+  position: sticky;
+  top: 20px;
+}

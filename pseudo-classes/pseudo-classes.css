@@ -1,0 +1,47 @@
+.div1 {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.div1:active {
+  color: red;
+}
+
+.div2 {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.div2:hover {
+  color: green;
+}
+
+.div3 {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.div4 {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.div4:empty {
+  background-color: yellow;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: lightblue;
+}
